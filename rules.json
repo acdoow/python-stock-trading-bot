@@ -1,0 +1,35 @@
+{
+  "universe": ["AAPL", "MSFT", "AMZN", "GOOGL", "META"],
+  "selection": "ordered",
+  "random_seed": 41,
+  "positions": 5,
+  "dollars_each": 2.0,
+  "capital_cap": 10.0,
+  "cash_buffer": 0.01,
+  "loss_fraction": 0.5,
+  "min_gain_fraction": 0.02,
+  "min_net_profit_dollars": 0.01,
+  "estimated_roundtrip_cost": 0.02,
+  "bar_minutes": 5,
+  "poll_seconds": 15,
+  "max_quote_age_seconds": 60,
+  "max_spread_fraction": 0.01,
+  "research_horizon_bars": 120,
+  "auto_adapt_paper": true,
+  "auto_adapt_live": false,
+  "momentum": {
+    "enabled": true,
+    "window_bars": 6,
+    "min_session_gain_fraction": 0.005,
+    "min_window_gain_fraction": 0.003,
+    "min_rising_step_fraction": 0.6,
+    "max_pullback_fraction": 0.003
+  },
+  "plateau": {
+    "window_bars": 12,
+    "max_range_fraction": 0.01,
+    "max_slope_fraction": 0.0025,
+    "near_high_fraction": 0.015,
+    "min_turns": 3
+  }
+}

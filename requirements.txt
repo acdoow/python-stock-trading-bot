@@ -1,0 +1,2 @@
+# Needed for America/New_York timezones on Windows; usually already present on Linux/macOS.
+tzdata
